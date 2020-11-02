@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/slick.js"></script>
+    <!-- <script src="js/slick.js"></script> -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick-master/slick/slick.css">
+    <link rel="stylesheet" href="css/slick-master/slick/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Fashion20</title>
 </head>
