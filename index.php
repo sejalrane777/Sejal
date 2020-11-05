@@ -1,5 +1,7 @@
 <?php include("includes/header.php"); ?>
 <?php include("controller/sliderImageController.php"); ?>
+<link rel="stylesheet" href="css/slick-master/slick/slick.css">
+<link rel="stylesheet" href="css/slick-master/slick/slick-theme.css">
 
 <!-- star of carousal -->
 <div id="carouselIndicators" class="carousel slide mt-3" data-ride="carousel">
