@@ -27,7 +27,7 @@
 <div class="container-flex my-4 mx-5">
     <h1 class="mb-4 text-monospace "><strong> Categories</strong></h1>
     <div class="row ">
-        <div class="col-sm-6 col-md-2">
+        <div class="col-sm-6 col-md-4 col-lg-2">
             <a href="">
                 <figure class="figure">
                     <img src="images/index_images/men/5.png" class="figure-img img-fluid  " alt="Men Wear" style="height:250px;">
@@ -35,7 +35,7 @@
                 </figure>
             </a>
         </div>
-        <div class="col-sm-6 col-md-2">
+        <div class="col-sm-6 col-md-4 col-lg-2">
             <a href="">
                 <figure class="figure">
                     <img src="images/index_images/men/1.png" class="figure-img img-fluid  " alt="Men Topwear" style="height:250px;">
@@ -43,7 +43,7 @@
                 </figure>
             </a>
         </div>
-        <div class="col-sm-6 col-md-2">
+        <div class="col-sm-6 col-md-4 col-lg-2">
             <a href="">
                 <figure class="figure">
                     <img src="images/index_images/men/2.png" class="figure-img img-fluid  " alt="Men Bottomwear" style="height:250px;">
@@ -51,7 +51,7 @@
                 </figure>
             </a>
         </div>
-        <div class="col-sm-6 col-md-2">
+        <div class="col-sm-6 col-md-4 col-lg-2">
             <a href="">
                 <figure class="figure">
                     <img src="images/index_images/women/5.png" class="figure-img img-fluid " alt="Women Wear" style="height:250px;">
@@ -59,7 +59,7 @@
                 </figure>
             </a>
         </div>
-        <div class="col-sm-6 col-md-2">
+        <div class="col-sm-6 col-md-4 col-lg-2">
             <a href="">
                 <figure class="figure">
                     <img src="images/index_images/women/2.png" class="figure-img img-fluid " alt="Women Topwear" style="height:250px;">
@@ -67,7 +67,7 @@
                 </figure>
             </a>
         </div>
-        <div class="col-sm-6 col-md-2">
+        <div class="col-sm-6 col-md-4 col-lg-2">
             <a href="">
                 <figure class="figure">
                     <img src="images/index_images/women/3.png" class="figure-img img-fluid " alt="Women Bottomwear" style="height:250px;">
