@@ -30,7 +30,7 @@
         <div class="col-sm-6 col-md-2">
             <a href="">
                 <figure class="figure">
-                    <img src="images/men wear.jpg" class="figure-img img-fluid  rounded-circle" alt="Men Wear">
+                    <img src="images/index_images/men/5.png" class="figure-img img-fluid  " alt="Men Wear" style="height:250px;">
                     <figcaption class="figure-caption text-centre d-flex justify-content-center font-weight-bold">Men Wear</figcaption>
                 </figure>
             </a>
@@ -38,7 +38,7 @@
         <div class="col-sm-6 col-md-2">
             <a href="">
                 <figure class="figure">
-                    <img src="images/men topwear.jpg" class="figure-img img-fluid  rounded-circle " alt="Men Topwear">
+                    <img src="images/index_images/men/1.png" class="figure-img img-fluid  " alt="Men Topwear" style="height:250px;">
                     <figcaption class="figure-caption  d-flex justify-content-center font-weight-bold">Men Topwear</figcaption>
                 </figure>
             </a>
@@ -46,7 +46,7 @@
         <div class="col-sm-6 col-md-2">
             <a href="">
                 <figure class="figure">
-                    <img src="images/men bottomwear.jpg" class="figure-img img-fluid  rounded-circle" alt="Men Bottomwear">
+                    <img src="images/index_images/men/2.png" class="figure-img img-fluid  " alt="Men Bottomwear" style="height:250px;">
                     <figcaption class="figure-caption  d-flex justify-content-center font-weight-bold">Men Bottomwear</figcaption>
                 </figure>
             </a>
@@ -54,7 +54,7 @@
         <div class="col-sm-6 col-md-2">
             <a href="">
                 <figure class="figure">
-                    <img src="images/women wear.jpg" class="figure-img img-fluid  rounded-circle" alt="Women Wear">
+                    <img src="images/index_images/women/5.png" class="figure-img img-fluid " alt="Women Wear" style="height:250px;">
                     <figcaption class="figure-caption  d-flex justify-content-center font-weight-bold">Women Wear</figcaption>
                 </figure>
             </a>
@@ -62,7 +62,7 @@
         <div class="col-sm-6 col-md-2">
             <a href="">
                 <figure class="figure">
-                    <img src="images/women topwear.jpg" class="figure-img img-fluid rounded-circle" alt="Women Topwear">
+                    <img src="images/index_images/women/2.png" class="figure-img img-fluid " alt="Women Topwear" style="height:250px;">
                     <figcaption class="figure-caption  d-flex justify-content-center font-weight-bold">Women Topwear</figcaption>
                 </figure>
             </a>
@@ -70,7 +70,7 @@
         <div class="col-sm-6 col-md-2">
             <a href="">
                 <figure class="figure">
-                    <img src="images/women bottomwear.jpg" class="figure-img img-fluid rounded-circle" alt="Women Bottomwear">
+                    <img src="images/index_images/women/3.png" class="figure-img img-fluid " alt="Women Bottomwear" style="height:250px;">
                     <figcaption class="figure-caption d-flex justify-content-center font-weight-bold">Women Bottomwear</figcaption>
                 </figure>
             </a>
