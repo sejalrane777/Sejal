@@ -84,10 +84,10 @@
 
 <!-- posters -->
 <h1 class="ml-4 text-monospace "><strong>Men Collection</strong> </h1><br>
-<a href=""><img src="images/men poster.jpg" class="img-fluid mx-auto d-block  rounded shadow-lg bg-dark" alt="men banner">
+<a href=""><img src="images/men_banner.jpg" class="img-fluid mx-auto d-block  rounded shadow-lg bg-dark" alt="men banner">
 </a><br><br>
 <h1 class="ml-4 text-monospace"><strong>Women Collection</strong> </h1><br>
-<a href=""><img src="images/women poster.jpg" class="img-fluid mx-auto d-block rounded shadow-lg bg-secondary" alt="Women banner">
+<a href=""><img src="images/women_banner.jpg" class="img-fluid mx-auto d-block rounded shadow-lg bg-secondary" alt="Women banner">
 </a><br><br>
 
 <!--end posters -->
