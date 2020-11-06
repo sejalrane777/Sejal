@@ -2,7 +2,12 @@
 <?php include("controller/sliderImageController.php"); ?>
 <link rel="stylesheet" href="css/slick-master/slick/slick.css">
 <link rel="stylesheet" href="css/slick-master/slick/slick-theme.css">
+<style>
+.slick-prev:before, .slick-next:before {
 
+  color: #FFD700;
+}
+</style>
 <!-- star of carousal -->
 <div id="carouselIndicators" class="carousel slide mt-3" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -98,36 +103,36 @@
     <div class="row slider">
         <div class=" col-md-2 ">
             <div class="card">
-                <img src="images/slick men1.jpg" class="card-img-top" alt="Trending">
+                <img src="images/index_images/mix/casual_men.png" class="card-img-top" alt="Trending">
             </div>
         </div>
         <div class=" col-md-2">
             <div class="card">
-                <img src="images/slick men2.jpg" class="card-img-top" alt="Trending">
+                <img src="images/index_images/mix/indian_women.png" class="card-img-top" alt="Trending">
 
             </div>
         </div>
         <div class=" col-md-2">
             <div class="card">
-                <img src="images/slick men3.jpg" class="card-img-top" alt="Trending">
+                <img src="images/index_images/mix/sports.png" class="card-img-top" alt="Trending">
 
             </div>
         </div>
         <div class=" col-md-2">
             <div class="card">
-                <img src="images/slick women1.jpg" class="card-img-top" alt="Trending">
+                <img src="images/index_images/mix/west_women.png" class="card-img-top" alt="Trending">
 
             </div>
         </div>
         <div class=" col-md-2">
             <div class="card">
-                <img src="images/slick women2.jpg" class="card-img-top" alt="Trending">
+                <img src="images/index_images/mix/winter_men.png" class="card-img-top" alt="Trending">
 
             </div>
         </div>
         <div class=" col-md-2">
             <div class="card">
-                <img src="images/slick women3.jpg" class="card-img-top" alt="Trending">
+                <img src="images/index_images/mix/winter_women.png" class="card-img-top" alt="Trending">
 
             </div>
         </div>
