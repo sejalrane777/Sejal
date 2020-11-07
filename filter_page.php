@@ -1,8 +1,9 @@
-<?php include("includes/header.php"); ?> <br><br><br>
-<link rel="stylesheet" type="text/css" href="css/filter.css" />
+<?php include("includes/header.php"); ?> <br>
+<link rel="stylesheet" type="text/css" href="css/filter_page.css" />
 
 
 
+<h1 class=" mb-5 text-danger top-text text-center"> Fashion20</h1>
 
 <div class="container-flex">
     <div class="row">
