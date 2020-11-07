@@ -29,8 +29,8 @@
 
 <!-- start of categories -->
 
-<div class="container-flex my-4 mx-5">
-    <h1 class="mb-4 text-monospace "><strong> Categories</strong></h1>
+<div class="container-flex my-4 mx-5 categories">
+  <h1 class=" text-font "><strong><center>Categories</center></strong> </h1><br>
     <div class="row ">
         <div class="col-sm-6 col-md-4 col-lg-2">
             <a href="">
@@ -88,18 +88,18 @@
 
 
 <!-- posters -->
-<h1 class="ml-4 text-monospace "><strong>Men Collection</strong> </h1><br>
+<h1 class=" text-font categories "><strong><center>Men Fashionista</center></strong> </h1><br>
 <a href=""><img src="images/men_banner.jpg" class="img-fluid mx-auto d-block  rounded shadow-lg bg-dark" alt="men banner">
 </a><br><br>
-<h1 class="ml-4 text-monospace"><strong>Women Collection</strong> </h1><br>
-<a href=""><img src="images/women_banner.jpg" class="img-fluid mx-auto d-block rounded shadow-lg bg-secondary" alt="Women banner">
-</a><br><br>
+
 
 <!--end posters -->
 
 <!-- start of slick carousel -->
-<h1 class="ml-4 text-monospace "><strong>Trending</strong> </h1><br>
-<div class="container">
+
+<div class="container categories">
+  <h1 class="text-font "><strong><center>
+  Trending</center></strong> </h1><br>
     <div class="row slider">
         <div class=" col-md-2 ">
             <div class="card">
@@ -139,7 +139,9 @@
     </div>
 </div>
 <!-- start of slick carousel -->
-
-
+<br><br>
+<h1 class="text-font categories"><strong><center>Women Fashionista</center></strong> </h1><br>
+<a href=""><img src="images/women_banner.jpg" class="img-fluid mx-auto d-block rounded shadow-lg bg-secondary" alt="Women banner">
+</a><br /><br />
 
 <?php include("includes/footer.php"); ?>

@@ -11,23 +11,23 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Fashion20</title>
+    <title>Fashion-Q</title>
 </head>
 
 <body>
     <!-- start of navbar -->
     <div class="container mt-2">
         <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-white border-bottom">
-            <a class="navbar-brand font-weight-bold text-monospace text-danger" href="index.php">Fashion20</a>
+            <a class="navbar-brand   text-danger head-title" href="index.php">Fashion-Q</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse"></div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto ">
+                <ul class="navbar-nav mr-auto  ">
                     <?php foreach ($fetchCategory as $row) { ?>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle font-weight-bold text-monospace" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?= $row['category'] ?></a>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link  font-weight-bold  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?= $row['category'] ?></a>
                             <div class="dropdown-menu men-mega-menu" aria-labelledby="navbarDropdown">
                                 <div class="row">
                                     <div class="col-md-auto">
