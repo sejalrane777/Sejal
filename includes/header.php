@@ -27,7 +27,7 @@
                 <ul class="navbar-nav mr-auto  ">
                     <?php foreach ($fetchCategory as $row) { ?>
                         <li class="nav-item dropdown ">
-                            <a class="nav-link  font-weight-bold  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?= $row['category'] ?></a>
+                            <a class="nav-link  font-weight-bold  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding-left:25px;padding-right:25px;"><?= $row['category'] ?></a>
                             <div class="dropdown-menu men-mega-menu" aria-labelledby="navbarDropdown">
                                 <div class="row">
                                     <div class="col-md-auto">
