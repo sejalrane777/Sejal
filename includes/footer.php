@@ -1,7 +1,7 @@
-<hr>
-<footer class="page-footer font-small mdb-color lighten-3">
+<br /><br />
+<footer class="page-footer font-small mdb-color lighten-3 foot">
 
-    
+
     <div class="container text-center text-md-left">
 
         <!-- Grid row -->
@@ -134,7 +134,7 @@
 <!-- slick js cnd -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
 <!-- <script src="css/slick-master/slick/slick.js"></script> -->
-<script src="js/slick.js"></script> 
+<script src="js/slick.js"></script>
 
 
 

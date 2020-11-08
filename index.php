@@ -36,8 +36,8 @@
 
 <!-- start of categories -->
 
-<div class="container-flex my-4 mx-5 categories">
-  <h1 class=" text-font "><strong><center>Categories</center></strong> </h1><br>
+<div class="container-flex my-4 mx-5 categories circle-cat">
+  <h1 class=" text-font "><strong><center class="hover-border">Categories</center></strong> </h1><br>
     <div class="row ">
         <div class="col-sm-6 col-md-4 col-lg-2">
             <a href="">
@@ -89,13 +89,12 @@
         </div>
     </div>
 </div>
-<br><br><br>
 <!-- end of categories -->
-
+<br /><br />
 
 
 <!-- posters -->
-<h1 class=" text-font categories "><strong><center>Men Fashionista</center></strong> </h1><br>
+<h1 class=" text-font categories  "><strong><center class="hover-border">Men Fashionista</center></strong> </h1><br>
 <a href=""><img src="images/men_banner.jpg" class="img-fluid mx-auto d-block  rounded shadow-lg bg-dark" alt="men banner">
 </a><br><br>
 
@@ -105,7 +104,7 @@
 <!-- start of slick carousel -->
 
 <div class="container categories">
-  <h1 class="text-font "><strong><center>
+  <h1 class="text-font "><strong><center class="hover-border">
   Trending</center></strong> </h1><br>
     <div class="row slider">
         <div class=" col-md-2 ">
@@ -147,7 +146,7 @@
 </div>
 <!-- start of slick carousel -->
 <br><br>
-<h1 class="text-font categories"><strong><center>Women Fashionista</center></strong> </h1><br>
+<h1 class="text-font categories"><strong><center class="hover-border">Women Fashionista</center></strong> </h1><br>
 <a href=""><img src="images/women_banner.jpg" class="img-fluid mx-auto d-block rounded shadow-lg bg-secondary" alt="Women banner">
 </a><br /><br />
 
