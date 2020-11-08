@@ -1,4 +1,4 @@
-<br /><br />
+  <br /><br />
 <footer class="page-footer font-small mdb-color lighten-3 foot">
 
 
@@ -11,7 +11,7 @@
             <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
 
                 <!-- Content -->
-                <h5 class="font-weight-bold text-uppercase mb-4">Fashion20</h5>
+                <h5 class="font-weight-bold text-uppercase mb-4 head-title">Fashion-Q</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quam dolorem voluptatem harum modi laborum suscipit, reprehenderit pariatur recusandae inventore..</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate
                     esse
