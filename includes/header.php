@@ -31,7 +31,7 @@
                             <div class="dropdown-menu men-mega-menu" aria-labelledby="navbarDropdown">
                                 <div class="row">
                                     <div class="col-md-auto">
-                                        <p class="font-weight-bold"><img src="images/wear.png" alt=""> <?= $row['category'] ?> Wear</p>
+                                        <p class="font-weight-bold"><img src="images/wear.png" alt=""> <?= $row['category'] ?> </p>
                                         <ul style="list-style-type:none;">
                                             <?php
                                             $fetchSubCategory = mysqli_query($conn, "SELECT * from sub_category WHERE category='" . $row['category'] . "' ");
