@@ -1,4 +1,5 @@
-<?php include("includes/header.php"); ?>
+
+
 <?php include("controller/sliderImageController.php"); ?>
 <link rel="stylesheet" href="css/slick-master/slick/slick.css">
 <link rel="stylesheet" href="css/slick-master/slick/slick-theme.css">
@@ -9,7 +10,12 @@
 }
 </style>
 <!-- star of carousal -->
-<div id="carouselIndicators" class="carousel slide mt-3" data-ride="carousel">
+
+<div class="first">
+<?php include("includes/header.php"); ?>
+
+
+<div id="carouselIndicators" class="carousel slide mt-3 " data-ride="carousel" style="padding-top:10px;">
     <ol class="carousel-indicators">
         <?php echo make_slide_indicators($conn); ?>
     </ol>
@@ -24,6 +30,7 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
+</div>
 </div>
 <!-- end of carousal -->
 

@@ -11,13 +11,15 @@
   src:url("../fonts/Cinzel-Bold.ttf");
 }
 
+html{
 
+}
 .head-title{
   font-family: cinzel;
   font-size: 2em;
 }
-body {
-
+.first {
+background-image:url("../images/bg.png");
   }
 /* dropdown hover */
 
@@ -191,4 +193,8 @@ font-family: Elsie;
 
 .categories{
   padding-top: 50px ;
+}
+
+.navbar{
+  padding: .5rem 1rem;
 }
