@@ -180,14 +180,16 @@ html, body {
 }
 
 
-.product-detail {
+product details
+
+.product-detail1 {
 	display: inline-block;
 	float: left;
 	width: 100%;
 	padding: 45px 0;
   }
   
-  .product-detail h1 {
+  .product-detail1 h1 {
 	font-size: 40px padding:13px;
   }
   
@@ -217,17 +219,17 @@ html, body {
   .product-detail-right p {
 	font-size: 20px;
 	color: gray;
-  
   }
   .product-detail-right small {
 	font-size: 17px;
 	color: gray;
   }
   
-  .product-detail .sp-wrap {
+  .product-detail1 .sp-wrap {
 	max-width: 100%;
   }
   
   .product-detail-left img {
 	max-width: inherit;
   }
+  

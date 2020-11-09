@@ -1,5 +1,5 @@
   <br /><br />
-<footer class="page-footer font-small mdb-color lighten-3 foot">
+<footer class="bg foot">
 
 
     <div class="container text-center text-md-left">
