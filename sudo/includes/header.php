@@ -35,7 +35,7 @@
                       <a class="dropdown-item" href="#"><i class="fa fa-user"> Profile</i></a>
                       <a class="dropdown-item" href="#"><i class="fa fa-gear"> Settings</i></a>
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#"><i class="fa fa-sign-out"> Logout</i></a>
+                      <a class="dropdown-item" href="logout.php"><i class="fa fa-sign-out"> Logout</i></a>
                     </div>
           </div>
       </nav>

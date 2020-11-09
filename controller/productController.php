@@ -25,12 +25,17 @@ if(isset($_POST['save']))
 {
 	$category=$_POST['category'];
 	$subCategory=$_POST['subCategory'];
-	$product=$_POST['product'];
+	$product=$_POST['Product'];
 	$price=$_POST['price'];
 	$description=$_POST['description'];
 	$size=implode(',', $_POST['size']);
+
+
 	$image_1       = $_FILES['image_1']['name'];
-    $image_tmp_1  = $_FILES['image_1']['tmp_name'];
+  $image_tmp_1  = $_FILES['image_1']['tmp_name'];
+
+
+
     $image_2       = $_FILES['image_2']['name'];
     $image_tmp_2  = $_FILES['image_2']['tmp_name'];
     $image_3       = $_FILES['image_3']['name'];
@@ -39,8 +44,15 @@ if(isset($_POST['save']))
     $image_tmp_4  = $_FILES['image_4']['tmp_name'];
 	if ($conn)
           {
+
+
           	$location      = '../sudo/uploads/products/';
 			move_uploaded_file($image_tmp_1,$location.$image_1);
+
+
+
+
+
 			move_uploaded_file($image_tmp_2,$location.$image_2);
 			move_uploaded_file($image_tmp_3,$location.$image_3);
 			move_uploaded_file($image_tmp_4,$location.$image_4);
