@@ -16,9 +16,9 @@
 
 <body>
     <!-- start of navbar -->
-    <div class="container mt-2">
-        <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light bg-white border-bottom">
-            <a class="navbar-brand   text-danger head-title" href="index.php">Fashion-Q</a>
+    <div class="container" >
+        <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light  " style="background-color:transparent;padding: 2rem 1rem;">
+            <a class="navbar-brand  head-title" href="index.php" style="color:white;">Fashion-Q</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -27,11 +27,11 @@
                 <ul class="navbar-nav mr-auto  ">
                     <?php foreach ($fetchCategory as $row) { ?>
                         <li class="nav-item dropdown ">
-                            <a class="nav-link  font-weight-bold  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?= $row['category'] ?></a>
+                            <a class="nav-link  font-weight-bold  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding-left:25px;padding-right:25px;"><?= $row['category'] ?></a>
                             <div class="dropdown-menu men-mega-menu" aria-labelledby="navbarDropdown">
                                 <div class="row">
                                     <div class="col-md-auto">
-                                        <p class="font-weight-bold"><img src="images/wear.png" alt=""> <?= $row['category'] ?> Wear</p>
+                                        <p class="font-weight-bold"><img src="images/wear.png" alt=""> <?= $row['category'] ?> </p>
                                         <ul style="list-style-type:none;">
                                             <?php
                                             $fetchSubCategory = mysqli_query($conn, "SELECT * from sub_category WHERE category='" . $row['category'] . "' ");

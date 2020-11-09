@@ -1,4 +1,5 @@
-<?php include("includes/header.php"); ?>
+
+
 <?php include("controller/sliderImageController.php"); ?>
 <link rel="stylesheet" href="css/slick-master/slick/slick.css">
 <link rel="stylesheet" href="css/slick-master/slick/slick-theme.css">
@@ -10,7 +11,12 @@
     }
 </style>
 <!-- star of carousal -->
-<div id="carouselIndicators" class="carousel slide mt-3" data-ride="carousel">
+
+<div class="first">
+<?php include("includes/header.php"); ?>
+
+<br />
+<div id="carouselIndicators" class="carousel slide mt-3 " data-ride="carousel" style="padding-top:10px;">
     <ol class="carousel-indicators">
         <?php echo make_slide_indicators($conn); ?>
     </ol>
@@ -26,14 +32,13 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+</div>
 <!-- end of carousal -->
 
 <!-- start of categories -->
 
-<div class="container-flex my-4 mx-5 categories">
-    <h1 class=" text-font "><strong>
-            <center>Categories</center>
-        </strong> </h1><br>
+<div class="container-flex my-4 mx-5 categories circle-cat">
+  <h1 class=" text-font "><strong><center class="hover-border">Categories</center></strong> </h1><br>
     <div class="row ">
         <div class="col-sm-6 col-md-4 col-lg-2">
             <a href="">
@@ -85,15 +90,12 @@
         </div>
     </div>
 </div>
-<br><br><br>
 <!-- end of categories -->
-
+<br /><br />
 
 
 <!-- posters -->
-<h1 class=" text-font categories "><strong>
-        <center>Men Fashionista</center>
-    </strong> </h1><br>
+<h1 class=" text-font categories  "><strong><center class="hover-border">Men Fashionista</center></strong> </h1><br>
 <a href=""><img src="images/men_banner.jpg" class="img-fluid mx-auto d-block  rounded shadow-lg bg-dark" alt="men banner">
 </a><br><br>
 
@@ -103,10 +105,8 @@
 <!-- start of slick carousel -->
 
 <div class="container categories">
-    <h1 class="text-font "><strong>
-            <center>
-                Trending</center>
-        </strong> </h1><br>
+  <h1 class="text-font "><strong><center class="hover-border">
+  Trending</center></strong> </h1><br>
     <div class="row slider">
         <div class=" col-md-2 ">
             <div class="card">
@@ -147,9 +147,7 @@
 </div>
 <!-- start of slick carousel -->
 <br><br>
-<h1 class="text-font categories"><strong>
-        <center>Women Fashionista</center>
-    </strong> </h1><br>
+<h1 class="text-font categories"><strong><center class="hover-border">Women Fashionista</center></strong> </h1><br>
 <a href=""><img src="images/women_banner.jpg" class="img-fluid mx-auto d-block rounded shadow-lg bg-secondary" alt="Women banner">
 </a><br /><br />
 

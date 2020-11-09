@@ -16,23 +16,24 @@
   font-family: cinzel;
   font-size: 2em;
 }
-body {
-
+.first {
+background-image:url("../images/bg1.png");
   }
+
+
 /* dropdown hover */
 
 .dropdown:hover>.men-mega-menu   {
     display: block;
     color: gray;
-    border-bottom: 3px solid #c5c1f3;
-    box-shadow: 0 3px #594ae4;
+    border-bottom: 3px solid ;
+
 
 }
 .dropdown:hover>.women-mega-menu   {
     display: block;
     color: gray;
     border-bottom: 2px solid #eef078;
-    box-shadow: 0 2px #e5e91d;
 
 }
 
@@ -141,4 +142,53 @@ font-family: Elsie;
 
 .categories{
   padding-top: 50px ;
+}
+
+.navbar{
+  padding: .5rem 1rem;
+}
+.hover-border{
+  position:relative;
+}
+ .hover-border::after{
+  content:'';
+  width:0%;
+  height:1.5px;
+  background-color:black;
+  position:absolute;
+  bottom:0%;
+  /* left:50%; */
+  border-radius:10px;
+  transition:all 1000ms ease;
+}
+
+.hover-border:hover::after{
+  left:0%;
+  width:100%;
+}
+/* -----------------------------scrollbar---------------------------- */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #1ABC9C;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #05705B;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #05705B;
+}
+
+.foot{
+  background-image:url("../images/bg2.png");
 }
