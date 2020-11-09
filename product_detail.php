@@ -46,6 +46,6 @@
       $(".sp-wrap").smoothproducts();
     });
   </script>
-</body>
 
-</html>
+
+<?php include("includes/footer.php"); ?>

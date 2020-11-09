@@ -9,9 +9,16 @@
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
     }
+   
+    @font-face {
+      font-family: Elsie;
+      src:url("../fonts/Elsie-Regular.ttf");
+    
+    
+    }
     .top-text{
-      font-family: Comic Sans MS;
-      text-shadow: 5px 5px 5px #ec3c3c;
+      font-family: Elsie;
+      text-shadow: 4px 4px 5px #ec3c3c;
     }
     
 div>ul>label{

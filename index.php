@@ -3,10 +3,11 @@
 <link rel="stylesheet" href="css/slick-master/slick/slick.css">
 <link rel="stylesheet" href="css/slick-master/slick/slick-theme.css">
 <style>
-.slick-prev:before, .slick-next:before {
+    .slick-prev:before,
+    .slick-next:before {
 
-  color: #FFD700;
-}
+        color: #FFD700;
+    }
 </style>
 <!-- star of carousal -->
 <div id="carouselIndicators" class="carousel slide mt-3" data-ride="carousel">
@@ -30,7 +31,9 @@
 <!-- start of categories -->
 
 <div class="container-flex my-4 mx-5 categories">
-  <h1 class=" text-font "><strong><center>Categories</center></strong> </h1><br>
+    <h1 class=" text-font "><strong>
+            <center>Categories</center>
+        </strong> </h1><br>
     <div class="row ">
         <div class="col-sm-6 col-md-4 col-lg-2">
             <a href="">
@@ -88,7 +91,9 @@
 
 
 <!-- posters -->
-<h1 class=" text-font categories "><strong><center>Men Fashionista</center></strong> </h1><br>
+<h1 class=" text-font categories "><strong>
+        <center>Men Fashionista</center>
+    </strong> </h1><br>
 <a href=""><img src="images/men_banner.jpg" class="img-fluid mx-auto d-block  rounded shadow-lg bg-dark" alt="men banner">
 </a><br><br>
 
@@ -98,8 +103,10 @@
 <!-- start of slick carousel -->
 
 <div class="container categories">
-  <h1 class="text-font "><strong><center>
-  Trending</center></strong> </h1><br>
+    <h1 class="text-font "><strong>
+            <center>
+                Trending</center>
+        </strong> </h1><br>
     <div class="row slider">
         <div class=" col-md-2 ">
             <div class="card">
@@ -140,8 +147,13 @@
 </div>
 <!-- start of slick carousel -->
 <br><br>
-<h1 class="text-font categories"><strong><center>Women Fashionista</center></strong> </h1><br>
+<h1 class="text-font categories"><strong>
+        <center>Women Fashionista</center>
+    </strong> </h1><br>
 <a href=""><img src="images/women_banner.jpg" class="img-fluid mx-auto d-block rounded shadow-lg bg-secondary" alt="Women banner">
 </a><br /><br />
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+<script src="js/slick.js"></script>
 <?php include("includes/footer.php"); ?>

@@ -1,8 +1,9 @@
 <hr>
-<footer class="page-footer font-small mdb-color lighten-3">
 
-    
-    <div class="container text-center text-md-left">
+<footer style="background-image: url("footer.jpg");">
+
+
+    <div class="m-3 text-center text-md-left">
 
         <!-- Grid row -->
         <div class="row">
@@ -11,7 +12,7 @@
             <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
 
                 <!-- Content -->
-                <h5 class="font-weight-bold text-uppercase mb-4">Fashion20</h5>
+                <h5 class="font-weight-bold text-uppercase mb-4" style="font-family: cinzel;">Fashion-Q</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quam dolorem voluptatem harum modi laborum suscipit, reprehenderit pariatur recusandae inventore..</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate
                     esse
@@ -26,7 +27,7 @@
             <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
 
                 <!-- Links -->
-                <h5 class="font-weight-bold text-uppercase mb-4">About</h5>
+                <h5 class="font-weight-bold text-uppercase mb-4"  style="font-family: cinzel;" >About</h5>
 
                 <ul class="list-unstyled">
                     <li>
@@ -56,7 +57,7 @@
             <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
 
                 <!-- Contact details -->
-                <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+                <h5 class="font-weight-bold text-uppercase mb-4"  style="font-family: cinzel;">Address</h5>
 
                 <ul class="list-unstyled">
                     <li>
@@ -82,7 +83,7 @@
             <div class="col-md-2 col-lg-2 text-center mx-auto my-2">
 
                 <!-- Social buttons -->
-                <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+                <h5 class="font-weight-bold text-uppercase mb-4"  style="font-family: cinzel;">Follow Us</h5>
 
                 <div class="row">
                     <div class="col-md-2 col-lg-2 text-center mx-auto my-2">
@@ -100,15 +101,15 @@
 
         </div>
         <!-- Grid row -->
-
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="#"> Fashion-Q.com</a>
+        </div>
+        <!-- Copyright -->
     </div>
     <!-- Footer Links -->
 
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> Fashion20.com</a>
-    </div>
-    <!-- Copyright -->
+
 
 </footer>
 <!-- Footer -->
@@ -132,9 +133,9 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> -->
 <!-- slick js cnd -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+
 <!-- <script src="css/slick-master/slick/slick.js"></script> -->
-<script src="js/slick.js"></script> 
+
 
 
 
