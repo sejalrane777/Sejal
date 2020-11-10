@@ -1,11 +1,12 @@
-<?php include("includes/header.php"); ?> <br>
+
+
 <link rel="stylesheet" type="text/css" href="css/filter_page.css" />
 
-
-
-<h1 class=" mb-5 text-danger top-text font-weight-bold text-center"> Fashion-Q</h1>
-
+<div class="first">
+<?php include("includes/header.php"); ?> 
+<br><br><br>
 <div class="container-flex overflow-hidden">
+
     <div class="row">
         <div class="col-sm-2 col-md-3 col-lg-2">
             <div class="container-flex ml-1 ">
@@ -176,7 +177,7 @@
     </div>
 </div>
 
-
+</div>
 
 
 
