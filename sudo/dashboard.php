@@ -1,4 +1,10 @@
-<?php include "includes/header.php" ;?>
+<?php require($_SERVER['DOCUMENT_ROOT']."/eshop/config/connection.php");
+include "includes/header.php" ;
+session_start();
+if(!($_SESSION['email']))
+{
+  header("location:admin.php");
+} ?>
 <div class="container-fluid p-0" style="margin-top:55px;">
       <div class="row m-0">
         <div class="col-xl-2 lg-2 md-2 col-sm-auto col-xs-auto sidebar text-center" id="sidebar">
@@ -15,38 +21,55 @@
           <div class="container mt-3">
             <div class="row justify-content-center">
             	<div class="col-auto mt-3">
-            	<div class="card p-2 text-center" style="width: 18rem">
+            	<a href="category.php" ><div class="card p-2 text-center" style="width: 18rem">
              		<div class="card-body">
-                		<h5 class="card-title mb-5">Categories<span style="color:red"></span></h5>
+                  <?php $fetch=mysqli_query($conn,"SELECT * from category");
+                     $row = mysqli_num_rows($fetch);
+                  ?>
+                		<h5 class="card-title mb-5">Categories: <span style="color:red"><?php echo $row;?></span></h5>
                 		<!-- <a href="#" class="card-link p-2 m-2">Read messages</a> -->
               		</div>
             	</div>
+            </a>
             	</div>
             	<div class="col-auto mt-3">
-	                <div class="card p-2 text-center" style="width:18rem">
+	                <a href="subCategory.php" ><div class="card p-2 text-center" style="width:18rem">
 		              	<div class="card-body">
-		                	<h5 class="card-title mb-5">Sub-Categories<span></span></h5>
+                      <?php $fetch=mysqli_query($conn,"SELECT * from sub_category");
+                         $row = mysqli_num_rows($fetch);
+                      ?>
+		                	<h5 class="card-title mb-5">Sub-Categories: <span style="color:red"><?php echo $row;?></span></h5>
 		                	<!-- <a href="" class="card-link p-2 m-2">See List</a> -->
 		              	</div>
+                  </div>
+                </a>
 	           		</div>
            		</div>
            	</div>
            	<div class="row justify-content-center">
            		<div class="col-auto mt-3">
-	                <div class="card p-2 text-center" style="width:18rem">
+	                <a href="product.php" ><div class="card p-2 text-center" style="width:18rem">
 		              	<div class="card-body">
-		                	<h5 class="card-title mb-5">Products<span></span></h5>
+                      <?php $fetch=mysqli_query($conn,"SELECT * from product_list");
+                     $row = mysqli_num_rows($fetch);
+                  ?>
+		                	<h5 class="card-title mb-5">Products: <span style="color:red"><?php echo $row;?></span></h5>
 		                	<!-- <a href="" class="card-link p-2 m-2">See List</a> -->
 		              	</div>
 	           		</div>
+              </a>
            		</div>
            		<div class="col-auto mt-3">
-	                <div class="card p-2 text-center" style="width:18rem">
+	                <a href="adminListing.php" ><div class="card p-2 text-center" style="width:18rem">
 		              	<div class="card-body">
-		                	<h5 class="card-title mb-5">Admin<span></span></h5>
+                      <?php $fetch=mysqli_query($conn,"SELECT * from admin");
+                     $row = mysqli_num_rows($fetch);
+                  ?>
+		                	<h5 class="card-title mb-5">Admin: <span style="color:red"><?php echo $row;?></span></h5>
 		                	<!-- <a href="" class="card-link p-2 m-2">See List</a> -->
 		              	</div>
 	           		</div>
+              </a>
            		</div>		
         </div>
       </div>

@@ -1,6 +1,10 @@
 <?php include "includes/header.php";
  include "../controller/productController.php";
- ?>
+ session_start();
+ if(!($_SESSION['email']))
+{
+  header("location:admin.php");
+} ?>
 <div class="container-fluid p-0" style="margin-top:55px;">
       <div class="row m-0">
         <div class="col-xl-2 lg-2 md-2 col-sm-auto col-xs-auto sidebar text-center" id="sidebar">
@@ -61,7 +65,7 @@
                                 <td><?php echo $row['created_on'];?></td>
                                 <td><?php echo $row['updated_on'];?></td>
                                 <td>
-                                <a class="btn btn-sm btn-primary" href="editProduct.php" title="edit" ><i class="fa fa-pencil"></i> Edit</a>
+                                <a class="btn btn-sm btn-primary" href="editProduct.php?edit=<?php echo $row['sr_no'];?>" title="edit" ><i class="fa fa-pencil"></i> Edit</a>
                                 <!-- <button type="button" class="btn btn-sm btn-primary edit"><i class="fa fa-pencil"></i> Edit</button>                  -->
                                 <a class="btn btn-sm btn-danger" href="product.php?delete=<?php echo $row['sr_no'];?>" title="Delete"><i class="fa fa-trash"></i> Delete</a>
                                 </td>
