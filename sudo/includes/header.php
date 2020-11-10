@@ -30,13 +30,17 @@
       <nav class="navbar fixed-top navbar-dark" style="background-color: black;">    
           <a class="navbar-brand" href="#"><b><i class="fa fa-shopping-cart"></i> eShopping</b></a>
           <div class="float-right">
-            <button class="btn dropdown-toggle btn-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white; ">My Account</button>   
-                    <div class="dropdown-menu" style="max-width: 9rem;">
-                      <a class="dropdown-item" href="#"><i class="fa fa-user"> Profile</i></a>
-                      <a class="dropdown-item" href="#"><i class="fa fa-gear"> Settings</i></a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="logout.php"><i class="fa fa-sign-out"> Logout</i></a>
-                    </div>
+                    <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white; ">
+    My Account
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="profile.php"><i class="fa fa-user"> Profile</i></a>
+    <a class="dropdown-item" href="#"><i class="fa fa-gear"> Settings</i></a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="logout.php"><i class="fa fa-sign-out"> Logout</i></a>
+  </div>
+</div>
           </div>
       </nav>
     </div>
