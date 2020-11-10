@@ -3,16 +3,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/smoothproducts.css" />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-  <div class="product-detail1">
+  <div class="product-detail">
     <div class="container">
       <div class="row">
         <div class=" col-lg-6 col-md-6 col-sm-12">
           <div class="product-detail-left ">
-            <div class="sp-wrap">
-              <a href="images/test-image-girl.jpg"><img src="images/test-image-girl.jpg"/></a>
-              <a href="images/women-top-2.jpg"><img src="images/women-top-2.jpg" /></a>
-              <a href="images/women-top-3.jpg"><img src="images/women-top-3.jpg" /></a>
-              <a href="images/women-top-4.jpg"><img src="images/women-top-4.jpg" /></a>
+            <div class="sp-wrap">             
+              <a  href="images/women-top-2.jpg "><img  src="images/women-top-2.jpg" class="img-fluid"></a>
+              <a href="images/women-top-3.jpg"><img src="images/women-top-3.jpg" class="img-fluid" ></a>
+              <a href="images/test-image-girl.jpg"><img src="images/test-image-girl.jpg" class="img-fluid"></a>
+              <a href="images/women-top-4.jpg"><img src="images/women-top-4.jpg" class="img-fluid" ></a>
             </div>
           </div>
         </div>
