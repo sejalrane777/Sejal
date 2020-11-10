@@ -4,7 +4,7 @@
 
 <div class="first">
 <?php include("includes/header.php"); ?> 
-<br><br><br>
+<br><br><br></div>
 <div class="container-flex overflow-hidden">
 
     <div class="row">
@@ -35,7 +35,6 @@
 
             </div>
         </div>
-
 
         <div class="col-sm-9 col-md-8 col-lg-9 ml-md-5 ">
             <div class="row">
@@ -177,7 +176,7 @@
     </div>
 </div>
 
-</div>
+
 
 
 
