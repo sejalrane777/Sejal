@@ -28,13 +28,14 @@ require($_SERVER['DOCUMENT_ROOT']."/eshop/config/connection.php");
                         $password=$Fetch['password'];
                         if(password_verify($PSWD, $password))
                         {  
-                            session_start();
+                            
                             $_SESSION["email"]=$EMAIL;
                             $sessionid=session_id();
                             $ip=$_SERVER['REMOTE_ADDR'];
                             $browser = $_SERVER['HTTP_USER_AGENT'];
                             $sql="INSERT INTO last_login (email,sessionid,ip,browser,date,time) VALUES('$EMAIL','$sessionid','$ip','$browser',CURDATE(),CURTIME())";
                             mysqli_query($conn, $sql); 
+                            session_start();
                             header("location:dashboard.php");
                         } 
                         else

@@ -11,6 +11,8 @@ $total= mysqli_num_rows($count);
 $pages=ceil($total/$limit) ;
 $previous = $page - 1;
 $next = $page + 1;
+
+
 if (isset($_POST['category'])) 
 {
 	$category=$_POST['category'];
@@ -33,40 +35,31 @@ if(isset($_POST['save']))
 
 	$image_1       = $_FILES['image_1']['name'];
   $image_tmp_1  = $_FILES['image_1']['tmp_name'];
-
-
-
-    $image_2       = $_FILES['image_2']['name'];
-    $image_tmp_2  = $_FILES['image_2']['tmp_name'];
-    $image_3       = $_FILES['image_3']['name'];
-    $image_tmp_3  = $_FILES['image_3']['tmp_name'];
-    $image_4       = $_FILES['image_4']['name'];
-    $image_tmp_4  = $_FILES['image_4']['tmp_name'];
+  $image_2       = $_FILES['image_2']['name'];
+  $image_tmp_2  = $_FILES['image_2']['tmp_name'];
+  $image_3       = $_FILES['image_3']['name'];
+  $image_tmp_3  = $_FILES['image_3']['tmp_name'];
+  $image_4       = $_FILES['image_4']['name'];
+  $image_tmp_4  = $_FILES['image_4']['tmp_name'];
+  
 	if ($conn)
-          {
-
-
-          	$location      = '../sudo/uploads/products/';
+    {
+      $location      = '../sudo/uploads/products/';
 			move_uploaded_file($image_tmp_1,$location.$image_1);
-
-
-
-
-
 			move_uploaded_file($image_tmp_2,$location.$image_2);
 			move_uploaded_file($image_tmp_3,$location.$image_3);
 			move_uploaded_file($image_tmp_4,$location.$image_4);
-            $sql  = "INSERT INTO product_list(category,subCategory,product,price,size,image_1,image_2,image_3,image_4,description,created_on,updated_on) VALUES('$category','$subCategory','$product','$price','$size','$image_1','$image_2','$image_3','$image_4','$description',CURDATE(),CURDATE()) ";
-            if (mysqli_query($conn, $sql))
-              { 
-                echo "<script> alert('Record added successfully'); </script> ";
-                echo "<meta http-equiv='refresh' content='0'>";
-              }
-            else
-              {
-                echo "<script> alert('Something went wrong try again later'); </script> ";
-              }
-          }
+      $sql  = "INSERT INTO product_list(category,subCategory,product,price,size,image_1,image_2,image_3,image_4,description,created_on,updated_on) VALUES('$category','$subCategory','$product','$price','$size','$image_1','$image_2','$image_3','$image_4','$description',CURDATE(),CURDATE()) ";
+      if (mysqli_query($conn, $sql))
+        { 
+          echo "<script> alert('Record added successfully'); </script> ";
+          echo "<meta http-equiv='refresh' content='0'>";
+        }
+      else
+        {
+          echo "<script> alert('Something went wrong try again later'); </script> ";
+        }
+    }
 }
 
 // Delete Product
@@ -78,4 +71,14 @@ if (isset($_GET['delete']))
 	    echo "<script> alert('Record deleted successfully'); </script> ";
     }
 
+
+//Edit Product
+if(isset($_GET['edit']))
+{
+  $id=$_GET['edit'];
+  $query=mysqli_query($conn,"SELECT * from product_list WHERE sr_no='$id'");
+  $row = mysqli_fetch_array($query);
+  $checkbox_array = explode(" ", $row [5]);
+  // echo $checkbox_array;
+}
 ?>
