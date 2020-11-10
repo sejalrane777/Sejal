@@ -27,7 +27,7 @@
                 <ul class="navbar-nav mr-auto  " style="text-align:center">
                     <?php foreach ($fetchCategory as $row) { ?>
                         <li class="nav-item dropdown ">
-                            <a class="nav-link  font-weight-bold  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding-left:25px;padding-right:25px;"><?= $row['category'] ?></a>
+                            <a class="nav-link  font-weight-bold  " href="filter_page.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding-left:25px;padding-right:25px;"><?= $row['category'] ?></a>
                             <div class="dropdown-menu men-mega-menu" aria-labelledby="navbarDropdown">
                                 <div class="row">
                                     <div class="col-md-auto">
@@ -36,7 +36,7 @@
                                             <?php
                                             $fetchSubCategory = mysqli_query($conn, "SELECT * from sub_category WHERE category='" . $row['category'] . "' ");
                                             foreach ($fetchSubCategory as $sub) { ?>
-                                                <li><a class="dropdown-item" href="#"><?= $sub['subCategory'] ?></a></li><br>
+                                                <li><a class="dropdown-item" href="filter_page.php"><?= $sub['subCategory'] ?></a></li><br>
                                             <?php } ?>
                                         </ul>
                                     </div>
@@ -44,8 +44,10 @@
                             </div>
                         </li>
                     <?php } ?>
+                    <li class="nav-item dropdown"><a class="nav-link  font-weight-bold " href="index.php#offers" id="navbarDropdown" role="button"  style="padding-left:25px;padding-right:25px;
+                    ">OFFERS</a></li>
                     
-                    <li class="nav-item dropdown"><a class="nav-link  font-weight-bold  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding-left:25px;padding-right:25px;
+                    <li class="nav-item dropdown"><a class="nav-link  font-weight-bold  " href="" id="navbarDropdown" role="button"  astyle="padding-left:25px;padding-right:25px;
                     border-style: solid;border-width: 1px;border-color: black;">Contact Us</a></li>
                 </ul>
                
