@@ -25,6 +25,15 @@
             <div class="tax">
              Inclusive of all taxes
             </div>
+            <div>
+            
+            <button class="round-button">XS</button>
+            <button class="round-button">S</button>
+            <button class="round-button">M</button>
+            <button class="round-button">L</button>
+            <button class="round-button">XL</button>
+            
+          </div>
             <h3>Product-Detail</h3>
             <small>
               Maroon solid woven A-line dress, has a V-neck, long sleeves, button closure,

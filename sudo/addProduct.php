@@ -1,10 +1,7 @@
 <?php include "includes/header.php";
  include "../controller/productController.php";
 session_start();
-if(!($_SESSION['email']))
-{
-  header("location:admin.php");
-} ?>
+?>
 <div class="container-fluid p-0" style="margin-top:55px;">
     <div class="row m-0">
         <div class="col-xl-2 lg-2 md-2 col-sm-auto col-xs-auto sidebar text-center" id="sidebar">
