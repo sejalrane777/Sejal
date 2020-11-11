@@ -14,8 +14,7 @@
 
 <div class="first">
 <?php include("includes/header.php"); ?>
-
-<br />
+<br><br>
 <div id="carouselIndicators" class="carousel slide mt-3 " data-ride="carousel" style="padding-top:10px;">
     <ol class="carousel-indicators">
         <?php echo make_slide_indicators($conn); ?>
@@ -104,9 +103,9 @@
 
 <!-- start of slick carousel -->
 
-<div class="container categories">
+<div class="container categories" id="offers">
   <h1 class="text-font "><strong><center class="hover-border">
-  Trending</center></strong> </h1><br>
+  Offers</center></strong> </h1><br>
     <div class="row slider">
         <div class=" col-md-2 ">
             <div class="card">
