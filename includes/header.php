@@ -16,9 +16,9 @@
 
 <body>
     <!-- start of navbar -->
-    <div class="container" >
-        <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light  " style="background-image:url("../images/bg_head.png");padding: 2rem 1rem;">
-            <a class="navbar-brand  head-title" href="index.php" style="color:white; padding-top:20px ">Fashion-Q</a>
+    <div class="container-flex header1 "  style="height:170px;">
+        <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light  " style="padding: 2rem 1rem; ">
+            <a class="navbar-brand  head-title" href="index.php" style="color:white;  ">Fashion-Q</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
