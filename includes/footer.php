@@ -101,7 +101,8 @@
         </div>
         <!-- Grid row -->
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <div class="footer-copyright text-center py-3">
+        &copy;  <?php print date("Y"); Copyright: ?>
             <a href="#"> Fashion-Q.com</a>
         </div>
         <!-- Copyright -->
