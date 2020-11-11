@@ -87,9 +87,9 @@ function has_error($fieldname) {
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title></title>
-    <meta name="description" content="">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
     body {
@@ -99,6 +99,128 @@ function has_error($fieldname) {
     .confirm {
       display: none;
     }
+
+    :root{
+  /*===== Colores =====*/
+  --first-color: #1A73E8;
+  --input-color: #80868B;
+  --border-color: #DADCE0;
+
+  /*===== Fuente y tipografia =====*/
+  --body-font: 'Roboto', sans-serif;
+  --normal-font-size: 1rem;
+  --small-font-size: .75rem;
+}
+  
+/*===== BASE =====*/
+*,::before,::after{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+h1{
+  margin: 0;
+}
+
+/*===== FORM =====*/
+.l-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+.form{
+  width: 600px;
+  padding: 4rem ;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(92,99,105,.2);
+}
+.form__title{
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+.form__div{
+  position: relative;
+  height: 48px;
+  margin-bottom: 1.5rem;
+}
+.form__input{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: var(--normal-font-size);
+  border: 1px solid var(--border-color);
+  border-radius: .5rem;
+  outline: none;
+  padding: 1rem;
+  background: none;
+  z-index: 1;
+}
+.form__label{
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  padding: 0 .25rem;
+  background-color: #fff;
+  color: var(--input-color);
+  font-size: var(--normal-font-size);
+  transition: .3s;
+}
+
+.form__button{
+  display: block;
+  margin-left: auto;
+  padding: .75rem 2rem;
+  outline: none;
+  border: none;
+  background-color: var(--first-color);
+  color: #fff;
+  font-size: var(--normal-font-size);
+  border-radius: .5rem;
+  cursor: pointer;
+  transition: .3s;
+}
+.form__button:hover{
+  box-shadow: 0 10px 36px rgba(0,0,0,.15);
+}
+
+/*Input focus move up label*/
+.form__input:focus + .form__label{
+  top: -.5rem;
+  left: .8rem;
+  color: var(--first-color);
+  font-size: var(--small-font-size);
+  font-weight: 500;
+  z-index: 10;
+}
+
+/*Input focus sticky top label*/
+.form__input:not(:placeholder-shown).form__input:not(:focus)+ .form__label{
+  top: -.5rem;
+  left: .8rem;
+  font-size: var(--small-font-size);
+  font-weight: 500;
+  z-index: 10;
+}
+
+/*Input focus*/
+.form__input:focus{
+  border: 1.5px solid var(--first-color);
+}
+
+.details{
+  
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+
+}
+
     </style>
     <!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -113,41 +235,46 @@ function has_error($fieldname) {
     <!-- Main jumbotron for a primary marketing message or call to action -->
 
     <div class="jumbotron maps">
-      <iframe style="pointer-events:none" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2499.7370815388135!2d4.421942951819587!3d51.2054961404522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f719789619c9%3A0xbec461e04d2b5a48!2sComposito+VOF!5e0!3m2!1sen!2sus!4v1476953070115" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-    <div class="container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.405381639322!2d73.75120701489391!3d18.600827687362308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b97c678b8961%3A0x23b56ae9b4e91fab!2sECSTATIC%20SOFTWARE%20TECHNOLOGIES%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1605095891033!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen ></iframe>  
+       </div> 
+    <div class="row">
       <?php print $messagetext; ?>
       <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-6">
-          <h2>Contact us</h2>
-             <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" accept-charset="utf-8">
-            <div class="form-group<?php print has_error(" name "); ?>">
-              <label for="name">Name:</label>
-              <input type="input" id="name" placeholder="Please enter your name" required class="form-control" name="name" value="<?php print $name; ?>">
-            </div>
-            <div class="form-group<?php print has_error(" email "); ?>">
-              <label>Email:</label>
-              <input type="email" required name="first_email" placeholder="Enter a valid email address" title="Please enter a valid email address" class="form-control" value="<?php print $email; ?>">
-            </div>
-            <div class="form-group confirm <?php print has_error(" email "); ?>">
-              <label>Email:</label>
-              <input type="email" required name="email" placeholder="Repeat your email address" title="Repeat your email address" class="form-control" value="name@example.com">
-            </div>
-            <div class="form-group<?php print has_error(" subject "); ?>">
-              <label for="subject">Subject</label>
-              <input type="input" name="subject" placeholder="Tell us what you want to talk about"  required id="subject" class="form-control" value="<?php print $subject; ?>">
-            </div>
-            <div class="form-group<?php print has_error(" message "); ?>">
-              <label for="message">Message:</label>
-              <textarea name="message" class="form-control" required id="message" rows="8"><?php print $message; ?></textarea>
-            </div>
-            <button type="submit" class="btn btn-default">Submit</button>
-          </form>
+      <div class="l-form col-lg-6 col-md-6 col-sm-12">
+            <form action="" class="form">
+                <h1 class="form__title">Contact Us</h1>
+
+                <div class="form__div">
+                    <input type="text" class="form__input" placeholder=" ">
+                    <label for="" class="form__label">Name</label>
+                </div>
+
+                <div class="form__div">
+                    <input type="text" class="form__input" placeholder=" ">
+                    <label for="" class="form__label">Email</label>
+                </div>
+                <div class="form__div">
+                    <input type="text" class="form__input" placeholder=" ">
+                    <label for="" class="form__label">Phone</label>
+                </div>
+                <div class="form__div">
+                    <input type="text" class="form__input" placeholder=" ">
+                    <label for="" class="form__label">Message</label>
+                </div>
+
+                <input type="submit" class="form__button" value="Send">
+            </form>
         </div>
-        <div class="col-md-6">
-          <h2>Heading</h2>
-          <p>Office no 403, Sanskruti House , Above Royal Enfield Showroom, Bhumkar Chowk , Wakad , Pune.</p>
+     
+        <div class="col-md-6 col-lg-6 col-sm-12 details">
+          <h2>Address</h2>
+          <br><br>
+          <p>Office no 403, Sanskruti House , Above Royal </p>
+          <p>Enfield Showroom, Bhumkar Chowk , Wakad , Pune.</p>
+          <p>Office no 403, Sanskruti House , Above Royal </p>
+          <p>Enfield Showroom, Bhumkar Chowk , Wakad , Pune.</p>
+          <p>Office no 403, Sanskruti House , Above Royal </p>
+          <p>Enfield Showroom, Bhumkar Chowk , Wakad , Pune.</p>
         </div>
       </div>
      
