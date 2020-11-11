@@ -20,7 +20,7 @@
         <?php echo make_slide_indicators($conn); ?>
     </ol>
     <div class="carousel-inner">
-        <?php echo make_slides($conn); ?>
+       <a href="filter_page.php"> <?php echo make_slides($conn); ?></a>
     </div>
     <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -40,7 +40,7 @@
   <h1 class=" text-font "><strong><center class="hover-border">Categories</center></strong> </h1><br>
     <div class="row ">
         <div class="col-sm-6 col-md-4 col-lg-2">
-            <a href="">
+            <a href="filter_page.php">
                 <figure class="figure">
                     <img src="images/index_images/men/5.png" class="figure-img img-fluid  " alt="Men Wear" style="height:250px;">
                     <figcaption class="figure-caption text-centre d-flex justify-content-center font-weight-bold">Men Wear</figcaption>
@@ -48,7 +48,7 @@
             </a>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-2">
-            <a href="">
+            <a href="filter_page.php">
                 <figure class="figure">
                     <img src="images/index_images/men/1.png" class="figure-img img-fluid  " alt="Men Topwear" style="height:250px;">
                     <figcaption class="figure-caption  d-flex justify-content-center font-weight-bold">Men Topwear</figcaption>
@@ -56,7 +56,7 @@
             </a>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-2">
-            <a href="">
+            <a href="filter_page.php">
                 <figure class="figure">
                     <img src="images/index_images/men/2.png" class="figure-img img-fluid  " alt="Men Bottomwear" style="height:250px;">
                     <figcaption class="figure-caption  d-flex justify-content-center font-weight-bold">Men Bottomwear</figcaption>
@@ -64,7 +64,7 @@
             </a>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-2">
-            <a href="">
+            <a href="filter_page.php">
                 <figure class="figure">
                     <img src="images/index_images/women/5.png" class="figure-img img-fluid " alt="Women Wear" style="height:250px;">
                     <figcaption class="figure-caption  d-flex justify-content-center font-weight-bold">Women Wear</figcaption>
@@ -72,7 +72,7 @@
             </a>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-2">
-            <a href="">
+            <a href="filter_page.php">
                 <figure class="figure">
                     <img src="images/index_images/women/2.png" class="figure-img img-fluid " alt="Women Topwear" style="height:250px;">
                     <figcaption class="figure-caption  d-flex justify-content-center font-weight-bold">Women Topwear</figcaption>
@@ -80,7 +80,7 @@
             </a>
         </div>
         <div class="col-sm-6 col-md-4 col-lg-2">
-            <a href="">
+            <a href="filter_page.php">
                 <figure class="figure">
                     <img src="images/index_images/women/3.png" class="figure-img img-fluid " alt="Women Bottomwear" style="height:250px;">
                     <figcaption class="figure-caption d-flex justify-content-center font-weight-bold">Women Bottomwear</figcaption>
@@ -95,7 +95,7 @@
 
 <!-- posters -->
 <h1 class=" text-font categories  "><strong><center class="hover-border">Men Fashionista</center></strong> </h1><br>
-<a href=""><img src="images/men_banner.jpg" class="img-fluid mx-auto d-block  rounded shadow-lg bg-dark" alt="men banner">
+<a href="filter_page.php"><img src="images/men_banner.jpg" class="img-fluid mx-auto d-block  rounded shadow-lg bg-dark" alt="men banner">
 </a><br><br>
 
 
@@ -109,36 +109,36 @@
     <div class="row slider">
         <div class=" col-md-2 ">
             <div class="card">
-                <img src="images/index_images/mix/casual_men.png" class="card-img-top" alt="Trending">
+               <a href="filter_page.php"> <img src="images/index_images/mix/casual_men.png" class="card-img-top" alt="Trending"></a>
             </div>
         </div>
         <div class=" col-md-2">
             <div class="card">
-                <img src="images/index_images/mix/indian_women.png" class="card-img-top" alt="Trending">
+               <a href="filter_page.php"> <img src="images/index_images/mix/indian_women.png" class="card-img-top" alt="Trending"></a>
 
             </div>
         </div>
         <div class=" col-md-2">
             <div class="card">
-                <img src="images/index_images/mix/sports.png" class="card-img-top" alt="Trending">
+                <a href="filter_page.php"><img src="images/index_images/mix/sports.png" class="card-img-top" alt="Trending"></a>
 
             </div>
         </div>
         <div class=" col-md-2">
             <div class="card">
-                <img src="images/index_images/mix/west_women.png" class="card-img-top" alt="Trending">
+               <a href="filter_page.php"><img src="images/index_images/mix/west_women.png" class="card-img-top" alt="Trending"></a>
 
             </div>
         </div>
         <div class=" col-md-2">
             <div class="card">
-                <img src="images/index_images/mix/winter_men.png" class="card-img-top" alt="Trending">
+                <a href="filter_page.php"><img src="images/index_images/mix/winter_men.png" class="card-img-top" alt="Trending"></a>
 
             </div>
         </div>
         <div class=" col-md-2">
             <div class="card">
-                <img src="images/index_images/mix/winter_women.png" class="card-img-top" alt="Trending">
+                <a href="filter_page.php"><img src="images/index_images/mix/winter_women.png" class="card-img-top" alt="Trending"></a>
 
             </div>
         </div>
@@ -147,7 +147,7 @@
 <!-- start of slick carousel -->
 <br><br>
 <h1 class="text-font categories"><strong><center class="hover-border">Women Fashionista</center></strong> </h1><br>
-<a href=""><img src="images/women_banner.jpg" class="img-fluid mx-auto d-block rounded shadow-lg bg-secondary" alt="Women banner">
+<a href="filter_page.php"><img src="images/women_banner.jpg" class="img-fluid mx-auto d-block rounded shadow-lg bg-secondary" alt="Women banner">
 </a><br /><br />
 
 
