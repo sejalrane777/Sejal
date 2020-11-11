@@ -16,14 +16,14 @@
 
 <body>
     <!-- start of navbar -->
-    <div class="container-flex header1 "  style="height:170px;">
+    <div class="container-flex header1 ">
         <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-light  " style="padding: 2rem 1rem; ">
-            <a class="navbar-brand  head-title ml-5" href="index.php" style="color:white; ">Fashion-Q</a>
+            <a class="navbar-brand  head-title ml-5" href="index.php" style="color:white;padding-bottom:30px; ">Fashion-Q</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse"></div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-top:20px">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
                 <ul class="navbar-nav mr-auto  " style="text-align:center">
                     <?php foreach ($fetchCategory as $row) { ?>
                         <li class="nav-item dropdown ">
@@ -47,8 +47,7 @@
                     <li class="nav-item dropdown"><a class="nav-link  font-weight-bold " href="index.php#offers" id="navbarDropdown" role="button"  style="padding-left:25px;padding-right:25px;
                     ">OFFERS</a></li>
                     
-                    <li class="nav-item dropdown"><a class="nav-link  font-weight-bold  " href="" id="navbarDropdown" role="button"  astyle="padding-left:25px;padding-right:25px;
-                    border-style: solid;border-width: 1px;border-color: black;">Contact Us</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link  font-weight-bold  " href="contact_us.php" id="navbarDropdown" role="button" >Contact Us</a></li>
                 </ul>
                
            

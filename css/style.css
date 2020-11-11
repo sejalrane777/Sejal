@@ -191,6 +191,28 @@ font-family: Elsie;
   background-image:url("../images/bg2.png");
 }
 
-.header1{
+.navbar{
   background-image:url("../images/bg_head.png");
 }
+
+ @media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+ padding-top:0;
+    padding-bottom: 26.5px;
+    line-height: 80px;
+  }
+} 
+/* @media (max-width: 575.98px) { 
+  .navbar{
+    background-image:url("../images/bg_head1.png");
+    
+  }
+
+ }
+ @media (min-width: 576px) {
+  .navbar{
+    background-image:url("../images/bg_head1.png");
+    height: 170px;
+  }
+ } */
