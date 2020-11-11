@@ -185,6 +185,7 @@ h1{
   border-radius: .5rem;
   cursor: pointer;
   transition: .3s;
+  background-color:#05705B;
 }
 .form__button:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
@@ -233,7 +234,7 @@ h1{
         <![endif]-->
    
     <!-- Main jumbotron for a primary marketing message or call to action -->
-
+<br>
     <div class="jumbotron maps">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.405381639322!2d73.75120701489391!3d18.600827687362308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b97c678b8961%3A0x23b56ae9b4e91fab!2sECSTATIC%20SOFTWARE%20TECHNOLOGIES%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1605095891033!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen ></iframe>  
        </div> 
@@ -267,6 +268,7 @@ h1{
         </div>
      
         <div class="col-md-6 col-lg-6 col-sm-12 details">
+            <br><br><br>
           <h2>Address</h2>
           <br><br>
           <p>Office no 403, Sanskruti House , Above Royal </p>
