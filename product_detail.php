@@ -1,6 +1,6 @@
 <div class="first">
   <?php include("includes/header.php"); ?>
-  <br><br>
+ 
   <title>Product detail</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/smoothproducts.css" />
